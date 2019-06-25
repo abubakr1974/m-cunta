@@ -1,0 +1,73 @@
+@import header
+@import node
+@import sidebar
+@import footer
+@import col_efects
+
+
+a
+    color: #131313 !important
+a:hover
+    color: #14a7a2 !important
+    text-decoration: none
+
+
+%img-fluid
+    max-width: 100%
+    height: auto
+
+.image-style-large, .image-style-medium
+    @extend  %img-fluid
+
+@media (min-width: 1200px)
+    .container
+        max-width: 1170px
+
+
+
+// --------------------------
+
+#mySlider
+    .carousel-inner
+        .carousel-caption
+            background-color: #000000ad
+            position: absolute
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            z-index: 10
+            padding-top: 130px
+            padding-bottom: 20px
+            text-align: center
+            a
+                color: #fff !important
+
+@media (min-width: 992px)
+    #mySlider .carousel-inner .carousel-caption
+        background-color: #000000d4
+        top: 67%
+        padding-top: 20px
+
+// --------------------------
+
+#main
+    .block-views > h2
+        color: black
+        line-height: 30px
+        margin: 0 0 20px
+        padding: 0 0 16px
+        text-align: center
+        border: none
+        border-bottom: 3px solid #00aaaa
+        font: normal 28px/22px Lato
+        text-transform: uppercase
+        background: #fff
+        margin-top: 50px
+
+#main
+    background: #fff
+    main
+        // outline: 1px solid green
+
+

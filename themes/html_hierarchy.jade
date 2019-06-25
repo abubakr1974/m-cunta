@@ -1,0 +1,92 @@
+body
+    div .dialog-off-canvas-main-canvas
+        div #page-wrapper
+            div #page
+                //- #HEADER
+                header #header .header
+                    nav #navbar-top .navbar
+                        div .container
+                            section .row .region .region-secondary-menu
+                    nav #navbar-main .navbar .navbar-expand-md
+                        div .container
+                            a .navbar-brand
+                                img .img-fluid .d-inline-block .align-top
+                            button .navbar-toggler .navbar-toggler-right .collapsed data-toggle="collapse" data-target="#CollapsingNavbar"
+                                span .navbar-toggler-icon
+                            div #CollapsingNavbar .collapse .navbar-collapse
+                                nav #block-barrio-custom-main-menu .contextual-region .block .block-menu .navigation .menu--main role="navigation"
+                                    h2
+                                    div .contextual
+                                        ul .clearfix .nav .navbar-nav
+                                            li .nav-item
+                                                a .nav-link
+
+                //- #MAIN-WRAPPER
+                div #main-wrapper .layout-main-wrapper .clearfix
+                    div #main .container
+                        //- BREADCRUMBS
+                        div #block-barrio-custom-breadcrumbs .contextual-region .block .block-system .block-system-breadcrumb-block
+                            div .content
+                                nav
+                                    ol .breadcrumb
+                                        li .breadcrumb-item
+                        //- СТРАНИЦА - КОНТЕНТ + САЙДБАР
+                        div .row .row-offcanvas .row-offcanvas-left .clearfix
+                            //- #CONTENT
+                            main #content .main-content .col
+                                section .section
+                                    div #block-barrio-custom-page-title .contextual-region .block .block-core .block-page-title-block
+                                        div .content
+                                            h1 .js-quickedit-page-title .title
+                                    div #block-barrio-custom-content .block .block-system .block-system-main-block
+                                        div .content
+                                            article //- здесь идет или статья или вюха если это рубрика
+
+                            //- #SIDEBAR-SECOND
+                            div #sidebar_second .sidebar .col-md-3 .order-last
+                                aside .section
+                                    div #block-views-block-articles-block-new-in-sidebar .views-element-container .contextual-region .block .block-views .block-views-blockarticles-block-new-in-sidebar
+                                        h2
+                                        div .content
+                                            div .col-auto
+                                                div .contextual-region .view .view-articles .view-id-articles .view-display-id-block_new_in_sidebar .js-view-dom-id-79f6c50f7e5590453de5e7848c23df9c7d32db78c02e82233550a01f82606a8f
+                                                    div .view-content .row
+                                                        div .col-sm-12 .views-row
+                                                            div .views-field .views-field-field-image
+                                                                div .field-content
+                                                                    a
+                                                                        img .image-style-medium
+                                                            div .views-field .views-field-title
+                                                                span .field-content
+                                                                    a
+
+                //- FOOTER
+                footer .site-footer
+                    div .container
+                        div .site-footer__bottom
+                            section
+
+
+
+//- АНОНСЫ МАТЕРИАЛОВ =============================================================================
+div .views-element-container .contextual-region .col-auto
+    div .contextual-region .view .view-taxonomy-term .view-id-taxonomy_term .view-display-id-page_1 .js-view-dom-id-eca727865578d5b594f3b32c1142e8cca138aa9da745ac1a606a7a25d2881365
+        div .view-content .row
+            div .views-row
+                article .contextual-region .node .node--type-article .node--promoted .node--view-mode-teaser .clearfix
+                    header
+                        h2
+                            a
+                    div .node__content .clearfix
+                        div .field .field--name-field-image .field--type-image .field--label-above quickedit-field
+                            div .field__items
+                                div .field__item
+                                    img .image-style-medium
+                        div .clearfix .text-formatted .field .field--name-body .field--type-text-with-summary .field--label-hidden .field__item .quickedit-field
+                            p
+                        div .inline__links
+                            nav .links inline .nav .links-inline
+                                span .node-readmore .nav-link
+                                    a
+                                span .comment-add .nav-link
+                                    a
